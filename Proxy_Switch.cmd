@@ -1,5 +1,11 @@
 @ECHO OFF
 cls
+
+
+rem Geschrieben von
+rem Matthias Pröll <proell.matthias@gmail.com>
+rem Letzte Anpassung: 2019/10/05
+
 FOR /F "tokens=*" %%g IN ('reg QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable') do (SET CHECK=%%g)
 FOR /F "tokens=*" %%f IN ('echo %CHECK:~30,29%') do (SET CHECK=%%f)
 
