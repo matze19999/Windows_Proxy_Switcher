@@ -1,7 +1,6 @@
 @ECHO OFF
 cls
 
-
 rem Geschrieben von
 rem Matthias Pröll <proell.matthias@gmail.com>
 rem Letzte Anpassung: 2019/10/05
